@@ -7,9 +7,9 @@ import Home from '@/views/Home.vue';
     <h1>Front-End App</h1>
     <ul>
       <li> <router-link to="/">Início</router-link> </li>
-      <li> Profissões
+      <li> Games
         <ul>
-          <li> <router-link to="/games">Listar Profissões</router-link> </li>
+          <li> <router-link to="/games">Listar Games</router-link> </li>
           <li> <router-link to="/games/create">Cadastrar</router-link> </li>
         </ul>
       </li>
