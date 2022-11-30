@@ -44,7 +44,7 @@ const findAll = () => {
 };
 
 const destroy = (id) => {
-  if (confirm("Deseja excluir a profissão selecionada?")) {
+  if (confirm("Deseja excluir o game selecionada?")) {
     axios
       .delete(apiURL + "/games/" + id)
       .then((response) => {
